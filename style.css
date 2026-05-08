@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #f0ecec;
+    line-height: 1.5;
+}
+
+.container{
+    width:90%;
+    margin:0 auto;
+    max-width: 1950px;
+}
+
+.section-title{
+
+     font-family: 2rem;
+     margin-bottom: 25px;
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:50px;
+}
+
+.contact-item{
+    font-size: 1.1rem;
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+
+
+.contact-form{
+    background: #fff;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5) ;
+    
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding:15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid black;
+}
+.contact-form button{
+    border: none;
+    cursor: pointer;
+    background-color: rgba(40,80,128);
+    color: white;
+    font-size: 14px;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+}
